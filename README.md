@@ -1,2 +1,2 @@
 # vr-colors-site
-Site by Figma template (Bootstrap + BEM methodology)
+Site by Figma template (BEM methodology)
