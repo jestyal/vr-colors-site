@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Intro Rust Base';
+    src: url('../fonts/IntroRust-Base.eot');
+    src: url('../fonts/IntroRust-Base.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/IntroRust-Base.woff') format('woff'),
+    url('../fonts/IntroRust-Base.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    color: #000;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+h1, h2, h3 {
+    font-family: 'Intro Rust Base';
+}
+
+.btn {
+    background: #5222D0 !important;
+    border-color: #5222D0 !important;
+}
