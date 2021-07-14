@@ -22,11 +22,19 @@ body {
     font-weight: 300;
 }
 
-h1, h2, h3 {
-    font-family: 'Intro Rust Base';
+h1, h2, h3, h4, h5 {
+    font-family: 'Intro Rust Base', serif;
 }
 
 .btn {
     background: #5222D0 !important;
     border-color: #5222D0 !important;
+}
+
+.screen {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
