@@ -61,7 +61,7 @@ ul {
 }
 .screen {
     display: grid;
-    grid-template-rows: 147px 1fr 142px;
+    grid-template-rows: auto 1fr auto;
     width: 100%;
     height: 100vh;
     background: url('../images/main-image.svg') no-repeat 100% 50%;
