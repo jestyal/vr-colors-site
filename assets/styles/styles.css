@@ -127,15 +127,11 @@ ul {
 }
 .card__group {
     display: grid;
-    /*grid-template-columns: repeat(3, auto);*/
     grid-template-columns: repeat(auto-fit, minmax(365px, 1fr));
     grid-template-rows: auto auto;
     column-gap: 70px;
     row-gap: 50px;
     margin-top: 40px;
-}
-.card__item_no-img {
-    /*align-self: end;*/
 }
 .card__img img {
     width: 100%;
